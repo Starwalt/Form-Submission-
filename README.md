@@ -1,6 +1,4 @@
-The "405 Not Allowed" error typically arises when the server doesn’t allow the requested HTTP method for the specified URL. In the context of GitHub Pages hosting, which is primarily intended for static content and doesn't support server-side scripting or dynamic processing (like PHP), trying to access a PHP file (`process_form.php`) directly will result in this error.
 
-To handle form submissions securely on GitHub Pages, you'll need to use an external service or solution capable of processing form data. Here's an example using Formspree, a service that allows form submissions without server-side scripting:
 
 ### Using Formspree:
 
